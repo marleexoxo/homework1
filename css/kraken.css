@@ -370,7 +370,7 @@ nav ul li.facebook a:before {
     content: "\f082";
     padding-left:30px;
 }
-nav ul li.facebook a:hover {
+nav ul li.facebook a:before:hover {
     color:#f2a6B2;
 }
   nav ul li.instagram a:before { 
