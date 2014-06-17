@@ -314,6 +314,78 @@ p {
   margin-bottom: 1.5625em;
 }
 
+
+
+
+header { 
+height:100px;
+
+width:100%; 
+
+z-index: 1;
+        
+      }
+
+    
+nav {
+
+float:left;
+margin: 0 auto;
+         
+    }
+nav ul { 
+float:left;
+line-height:100px;
+
+    }
+nav ul li { 
+ display:inline-block; 
+padding:0px 5px;
+        
+         }
+
+nav ul li a{
+ font-family: 'PT Serif', serif;
+font-size:16px;
+ color:#000;
+text-decoration: none;
+text-transform:uppercase;
+    
+ }    
+ nav ul li a:hover { 
+ color:#f2a6B2;;
+     }
+
+ nav ul li a:before{ 
+ font-family:FontAwesome;
+color:#ec008c;
+    
+
+     }
+ 
+nav ul li.facebook a:before {
+    content: "\f082";
+    padding-left:30px;
+}
+  nav ul li.instagram a:before { 
+    content: "\f16d";
+}
+ nav ul li.twitter a:before { 
+    content: "\f081"; 
+}
+  nav ul li.pinterest a:before{ 
+    content: "\f0d3";
+}
+
+  nav ul li.circle a:before{ 
+    content: "\f111";
+    font-size:5px;
+     color:#ec008c;
+}
+
+
+ 
+
 @media (min-width: 40em) {
   body {
     line-height: 1.5625;
