@@ -1,0 +1,19 @@
+---
+layout: page
+title: pagetwo
+---
+
+this is my second page
+
+{% for post in site.posts %}
+
+		{% if post.tag == "first" %}
+		<h3>
+			
+			<a href="{{ site.baseurl }}{{ post.url }}">
+			{{ post.title }}
+			</a>
+		</h3>
+			{% endif %}
+
+	{% endfor %}
