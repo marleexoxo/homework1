@@ -354,13 +354,14 @@ text-transform:uppercase;
     
  }    
  nav ul li a:hover { 
- color:#f2a6B2;;
+ color:#f2a6B2;
+ text-decoration:none;
      }
 
  nav ul li a:before{ 
  font-family:FontAwesome;
 color:#ec008c;
-text-decoration:none;
+
     
 
      }
